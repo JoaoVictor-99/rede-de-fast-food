@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>Mais que Sabor</title>
+    <title>FoodExpress</title>
 </head>
 <body>
-    <h1>Bem vindo ao Mais que Sabor!</h1>
+    <h1>Bem vindo ao FoodExpress!</h1>
     <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand">Navbar</a>
@@ -19,7 +19,15 @@
 </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <button type="button" class="btn">Base class</button>
+    <button type="button" class="btn" onclick="window.location.href='index.html'">
+    Inicio
+ <button type="button" class="btn" onclick="window.location.href='cardápio.html'">
+    Cardápio
+    <button type="button" class="btn" onclick="window.location.href='lanche.html'">
+    lanche
+    <button type="button" class="btn" onclick="window.location.href='contatos.html'">
+    contato
+</button>
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -29,7 +37,7 @@
       <img src="{{ url_for ('static', filename'banner 2.png') }}" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="{{ url_for ('static', filename'images.jpg') }}" class="d-block w-100" alt="...">
+      <img src="{{ url_for ('static', filename'images (3).jpg') }}" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
